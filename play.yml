@@ -12,6 +12,6 @@
     - name: TF deploy of a service
       cloud.terraform.terraform:
         project_path: './tfc'
-        state: absent
+        state: present
         force_init: true
         workspace: Ansible-Content-Integration
